@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.gallery .images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.gallery .images img {
+    width: 250px;
+    height: auto;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery .images img:hover {
+    transform: scale(1.05);
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+}
